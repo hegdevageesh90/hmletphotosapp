@@ -1,0 +1,42 @@
+# Compiled java classes
+*.class
+bin/
+
+# Maven/ant build dir
+target/
+
+# intellij specific files
+*.idea
+*.iml
+
+# eclipse specific files
+.project
+.classpath
+.settings
+.metadata
+Servers
+
+#test specific files 
+test-output/
+/.sonar
+sonar-project.properties
+
+=======
+# Deployment files
+*.jar
+*.war
+*.ear
+*.springBeans
+*.orig
+
+# Mac files
+*.DS_STORE
+
+# App Log files
+log/
+*.log
+
+# dbaas files
+comm-smart-dbaas-code/src/main/resources/db/oracle/commSmart/core-changelog.xml
+comm-smart-dbaas-code/src/main/resources/db/oracle/commSmart/data-changelog.xml
+comm-smart-dbaas-code/src/main/resources/db/oracle/commSmart/presys-changelog.xml

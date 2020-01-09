@@ -9,13 +9,6 @@ target/
 *.idea
 *.iml
 
-# eclipse specific files
-.project
-.classpath
-.settings
-.metadata
-Servers
-
 #test specific files 
 test-output/
 /.sonar
@@ -26,7 +19,6 @@ sonar-project.properties
 *.jar
 *.war
 *.ear
-*.springBeans
 *.orig
 
 # Mac files
@@ -35,8 +27,3 @@ sonar-project.properties
 # App Log files
 log/
 *.log
-
-# dbaas files
-comm-smart-dbaas-code/src/main/resources/db/oracle/commSmart/core-changelog.xml
-comm-smart-dbaas-code/src/main/resources/db/oracle/commSmart/data-changelog.xml
-comm-smart-dbaas-code/src/main/resources/db/oracle/commSmart/presys-changelog.xml

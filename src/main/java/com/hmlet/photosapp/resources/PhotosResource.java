@@ -14,7 +14,7 @@ public class PhotosResource {
 
     @GET
     @Timed
-    public Response dummyResp() {
-        return Response.ok().build();
+    public String dummyResp() {
+        return "HAHAHA!";
     }
 }

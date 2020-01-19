@@ -10,6 +10,12 @@
     <properties>
         <dropwizard.version>2.0.0</dropwizard.version>
     </properties>
+    <repositories>
+        <repository>
+            <id>mvnrepo</id>
+            <url>https://mvnrepository.com/artifact</url>
+        </repository>
+    </repositories>
     <build>
         <plugins>
             <plugin>

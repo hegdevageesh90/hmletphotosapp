@@ -55,6 +55,12 @@
       </plugin>
     </plugins>
   </build>
+  <repositories>
+    <repository>
+      <id>mvnrepo</id>
+      <url>https://mvnrepository.com/artifact</url>
+    </repository>
+  </repositories>
   <properties>
     <dropwizard.version>2.0.0</dropwizard.version>
   </properties>

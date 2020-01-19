@@ -1,8 +1,10 @@
 package com.hmlet.photosapp.resources;
 
-import com.codahale.metrics.annotation.Timed;
+import com.hmlet.photosapp.api.response.PostSuccessfulResponse;
+import com.hmlet.photosapp.core.Photo;
+import com.hmlet.photosapp.utils.Constants;
 
-import javax.ws.rs.GET;
+import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
@@ -12,9 +14,11 @@ import javax.ws.rs.core.Response;
 @Produces(MediaType.APPLICATION_JSON)
 public class PhotosResource {
 
-    @GET
-    @Timed
-    public String dummyResp() {
-        return "HAHAHA!";
+    @POST
+    @Path("/post")
+    public PostSuccessfulResponse postPhoto(Photo request) {
+
+        
+        return new PostSuccessfulResponse(false, "", "", Constants.POST_SUCCESS_MESSAGE);
     }
 }
